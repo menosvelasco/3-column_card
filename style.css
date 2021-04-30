@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+button {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.vehicle {
+  padding: 20px;
+}
+.car {
+  padding: 30px;
+}
+h2 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+.btn {
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+img {
+  margin-bottom: 25px;
+}
+.Bright-orange {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border-radius: 20px 20px 0 0;
+}
+.Bright-orange .btn {
+  color: hsl(31, 77%, 52%);
+}
+.Dark-cyan {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+.Dark-cyan .btn {
+  color: hsl(184, 100%, 22%);
+}
+.Very-dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border-radius: 0 0 20px 20px;
+}
+.very-dark-cyan .btn {
+  color: hsl(179, 100%, 13%);
+}
+.btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
