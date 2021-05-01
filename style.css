@@ -31,11 +31,12 @@ h2 {
 p {
   font-size: 15px;
   margin-bottom: 25px;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 .btn {
   border-radius: 30px;
   padding: 10px 20px;
+  margin-top: 28px;
   background-color: #fff;
   border: 2px solid #fff;
   cursor: pointer;
@@ -71,4 +72,30 @@ img {
 .btn:hover {
   background-color: transparent;
   color: #fff;
+}
+@media (min-width: 1400px) {
+  .vehicle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .Bright-orange {
+    border-radius: 20px 0 0 20px;
+  }
+  .Very-dark-cyan {
+    border-radius: 0 20px 20px 0;
+  }
+  .car {
+    padding: 50px;
+  }
+  p {
+    margin-bottom: 44px;
+  }
+  .btn {
+    margin-top: 50px;
+  }
 }
